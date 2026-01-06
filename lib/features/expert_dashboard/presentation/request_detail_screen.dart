@@ -51,7 +51,7 @@ class _RequestDetailScreenState extends State<RequestDetailScreen> {
           // 1. Visit Request Status Card
           Container(
             padding: const EdgeInsets.all(12),
-            color: Colors.amber.withOpacity(0.1),
+            color: Colors.amber..withValues(alpha: 0.1),
             child: Row(
               children: [
                 const Icon(Icons.info_outline, color: Colors.amber),
